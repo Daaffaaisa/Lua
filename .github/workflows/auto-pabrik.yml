@@ -17,15 +17,7 @@ jobs:
       with:
         fetch-depth: 0
         
-    - name: 2. Gabungkan dengan Update Dev Resmi
-      continue-on-error: true
-      run: |
-        git config user.name "Robot Pabrik"
-        git config user.email "robot@pabrik.com"
-        git remote add upstream https://github.com/madoiscool/LuaTools.git
-        git fetch upstream
-        git merge upstream/main --allow-unrelated-histories -m "Auto-Merge Update Resmi"
-        
+    # Langkah Merge Sementara dimatikan dulu untuk rilis perdana
     - name: 3. Setup Mesin .NET 8
       uses: actions/setup-dotnet@v4
       with:
