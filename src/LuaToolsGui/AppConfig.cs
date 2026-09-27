@@ -99,7 +99,7 @@ public static class AppConfig
     /// </summary>
     public static readonly string[] GithubReleasesRepos =
     [
-        "https://github.com/USERNAME_KAMU/LuaTools_Custom", // ganti dengan URL Repo kamu bosku!
+        "https://github.com/Daaffaaisa/Lua", // ganti dengan URL Repo kamu bosku!
     ];
 
     /// <summary>The primary releases repo (first in <see cref="GithubReleasesRepos"/>).</summary>
